@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToeExam</string>
+    <string name="top_left">TOP LEFT</string>
+    <string name="top">TOP</string>
+    <string name="top_right">TOP RIGHT</string>
+    <string name="left">LEFT</string>
+    <string name="center">CENTER</string>
+    <string name="right">RIGHT</string>
+    <string name="bottom_left">BOTTOM LEFT</string>
+    <string name="bottom">BOTTOM</string>
+    <string name="bottom_right">BOTTOM RIGHT</string>
+    <string name="game_title">Крестики и нолики</string>
+    <string name="player_turn">Ходит:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
