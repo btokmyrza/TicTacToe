@@ -90,13 +90,12 @@ class MainActivity : AppCompatActivity() {
         // game reset function will be called
         // if someone wins or the boxes are full
         if (!gameActive) {
-            gameReset()
+            resetGame()
         }
 
         // if the tapped image is empty
         if (gameState[tappedImage] == 2) {
-            // increase the counter
-            // after every tap
+            // increase the counter after every tap
             counter++
 
             // check if its the last box
@@ -108,23 +107,14 @@ class MainActivity : AppCompatActivity() {
             // mark this position
             gameState[tappedImage] = activePlayer
 
-            // change the active player
-            // from 0 to 1 or 1 to 0
-            val status = findViewById<TextView>(R.id.tv_player_turn)
-
+            // change the active player from 0 to 1, or 1 to 0
             if (activePlayer == 0) {
-                // set the image of x
                 img.setImageResource(R.drawable.btn_pressed_x)
                 activePlayer = 1
-
-                // change the status
                 status.text = "Ходит: нолик"
             } else {
-                // set the image of o
                 img.setImageResource(R.drawable.btn_pressed_o)
                 activePlayer = 0
-
-                // change the status
                 status.text = "Ходит: крестик"
             }
         }
@@ -153,8 +143,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // reset the game
-    fun gameReset() {
+    fun resetGame() {
         gameActive = true
         activePlayer = 0
         for (i in gameState.indices) {

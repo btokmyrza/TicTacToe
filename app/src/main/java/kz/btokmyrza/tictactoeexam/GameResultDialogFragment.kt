@@ -24,7 +24,7 @@ class GameResultDialogFragment(private val winnerStr: String?) : DialogFragment(
             tvGameResult.text = "Ничья!"
 
         view.findViewById<Button>(R.id.btn_game_restart).setOnClickListener{
-            (activity as MainActivity).gameReset()
+            (activity as MainActivity).resetGame()
             dismiss()
         }
     }
