@@ -8,8 +8,10 @@
         <entry key="app/src/main/res/drawable/btn_pressed_o_background.xml" value="0.485" />
         <entry key="app/src/main/res/drawable/btn_pressed_o_symbol.xml" value="0.485" />
         <entry key="app/src/main/res/drawable/btn_pressed_x.xml" value="0.485" />
+        <entry key="app/src/main/res/drawable/btn_pressed_x_background.xml" value="0.497" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_game_result.xml" value="0.5461956521739131" />
+        <entry key="app/src/main/res/layout/fragment_game_result_dialog.xml" value="0.5461956521739131" />
       </map>
     </option>
   </component>
